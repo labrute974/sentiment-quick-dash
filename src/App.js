@@ -50,7 +50,7 @@ function App() {
       <LinearProgress style={{ display: loading ? 'block' : 'none' }} />
 
       <div className='panel'>
-          <RadarChart cx="300" cy="250" outerRadius="80%" width={500} height={500} data={scores}>
+          <RadarChart cx="300" cy="250" outerRadius="80%" width={600} height={500} data={scores}>
             <PolarGrid />
             <PolarAngleAxis dataKey="keyword" />
             <PolarRadiusAxis />
